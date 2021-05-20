@@ -45,7 +45,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "client": "cd covidity && npm start",
-    "dev": "concurrently -n 'server,client' -c 'red,green' \"cd backend && nodemon server.js\" \"npm run client\""
+    "dev": "concurrently -n 'server,client' -c 'red,green' \"cd backend && nodemon server.js\" \"npm run client\"",
+    "build": "cd covidity && react-scripts build"
   },
   "keywords": [],
   "author": "",
