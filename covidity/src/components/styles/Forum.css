@@ -1,0 +1,28 @@
+.content{
+    display: flex;
+    width: 200px;
+    color: black;
+    height: 300px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    flex: 0.2;
+    background-color:#EEEEEE;
+    
+}
+.post_body{
+    display: flex;
+    flex: 0.6 
+}
+
+.bon1{
+    display: flex;
+    flex:0.2;
+    align-items: center;
+    width: 100%;
+    
+}
+
+ 
