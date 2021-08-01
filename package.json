@@ -46,8 +46,7 @@
     "start": "cd covidity && npm start",
     "client": "cd covidity && npm start",
     "dev": "cd covidity && npm start",
-    "build": "cd covidity && npm build",
-    "export": "next build && next export"
+    "build": "cd covidity && npm run build"
   },
   "keywords": [],
   "author": "",
